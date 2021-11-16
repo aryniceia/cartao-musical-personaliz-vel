@@ -8,7 +8,7 @@ O código ainda não está responsivo, então fique à vontade para fazer tais a
 Se for fazer seu cartão, me marca nas redes sociais:
 
 - Instagram: https://www.instagram.com/aryzete_/
-- Twitter: https://twitter.com/aryzete_
+- Twitter: https://twitter.com/aryzete_/
 - Twitch: https://www.twitch.tv/aryzete
-- TikTok: https://www.tiktok.com/@aryzete_
+- TikTok: https://www.tiktok.com/@aryzete_/
 - PicPay: https://app.picpay.com/user/aryzete
