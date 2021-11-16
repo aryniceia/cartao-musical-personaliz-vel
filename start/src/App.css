@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #97282a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Header {
+  
+}
+.box {
+  background: #461415;
+  border-radius: 20px;
+  width: 117px;
+  height: 27px;
+}
+.box:hover {
+  background-color: #6d2021;
+}
+.App-link {
+  color: #ffffff;
+  text-decoration: none;
+ 
+}
+
+.text {
+
+}
