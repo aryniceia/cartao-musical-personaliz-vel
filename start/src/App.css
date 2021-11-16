@@ -12,14 +12,21 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.Header {
-  
-}
+
+/* Título em Destaque */
+  .Header {
+    transition: transform 250ms;
+  }
+  .Header:hover {
+    transform: translateY(-10px);
+  }
+/* ------------------------------------------------------------------------------- */
+
 .box {
   background: #461415;
   border-radius: 20px;
-  width: 117px;
-  height: 27px;
+  width: 140px;
+  height: 36px;
 }
 .box:hover {
   background-color: #6d2021;
@@ -29,7 +36,22 @@
   text-decoration: none;
  
 }
-
 .text {
+  white-space: pre-wrap;
+  text-align: center;
+}
+.text1 {
+  white-space: pre-wrap;
+  text-align: right;
+  padding: 20px;
+  margin-left: 364px;
+}
+
+.video {
+  width: 500px;
+  height: 380px;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: -650px;
 
 }

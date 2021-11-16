@@ -2,7 +2,6 @@ import * as React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import './App.css';
 
-
 function App() {
   return (
     <div className="App">
@@ -23,7 +22,7 @@ function Home() {
     <>
       <main>
         <h2 className="Header">Oi,</h2>
-        <p>Se você se chama Marcela Reis e é fã da Taylor, por favor</p>
+        <p>Insira sua mensagem aqui...</p>
       </main>
       <nav className='box'>
         <Link className="App-link" to="/about">Clique Aqui!</Link>
@@ -36,18 +35,20 @@ function About() {
   return (
     <>
       <main video width="1000" height="1000" controls>
-        <h2>Primeiramente, o que é "vermelho"?</h2>
+        <h2 className="Header">Primeiramente, o que é "vermelho"?</h2>
         <p className='text'>
-          Quando olhamos para um objeto da cor vermelha, a coloração não está no objeto! 
-          A cor é refletida quando é iluminado por uma luz branca, e a luz branca
-          absorve todas as cores expondo o vermelho. Essa luz chega aos nossos olhos e passa pela íris,
-          que regula a quantidade de luz que recebemos na pupila. E assim a gente vê as cores. Legal né?
+          Insira sua mensagem aqui...<br /> Insira sua mensagem aqui... {/* O <br /> funciona como quebra de linha! */}
+          Insira sua mensagem aqui...  <br /> Insira sua mensagem aqui...
+          Insira sua mensagem aqui...<br />  Insira sua mensagem aqui...
+          Insira sua mensagem aqui... <br /> Insira sua mensagem aqui... <br />Insira sua mensagem aqui...
         </p>
       </main>
 
-      <nav>
-        <Link to="/">Voltar</Link>
-        <Link to="/Page">Avançar</Link>
+      <nav className='box'>
+        <Link className="App-link" to="/Page">Avançar</Link>
+      </nav>
+      <nav className='box'>
+        <Link className="App-link" to="/">Voltar</Link>
       </nav>
     </>
   );
@@ -57,11 +58,13 @@ function Page() {
   return (
     <>
       <main>
-        <p>Agora que sabemos mais sobre a cor, vamos a loira...</p>
+        <p className="Header">Insira sua mensagem aqui...</p>
       </main>
-      <nav>
-        <Link to="/About">Voltar</Link>
-        <Link to="/Musiquinha">Avançar</Link>
+      <nav className='box'>
+        <Link className="App-link" to="/Musiquinha">Avançar</Link>
+      </nav>
+      <nav className='box'>
+        <Link className="App-link" to="/About">Voltar</Link>
       </nav>
     </>
   );
@@ -71,26 +74,35 @@ function Musiquinha() {
   return (
     <>
       <main>
-        <p>sdaosid</p>
-        <iframe 
+        <h2 className="Header"> Isso ainda é um cartão?</h2>
+
+        <iframe className='video'
         width="853" 
         height="480" 
-        src="https://www.youtube.com/embed/tollGa3S0o8" 
+        src="https://www.youtube.com/embed/tollGa3S0o8" // esse é o código incorporado do vídeo, para você utilizar qualquer vídeo. Entre no youtube, clique com o botão direito no vídeo e "copiar código incorporado".
         title="YouTube video player" 
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-        encrypted-media; gyroscope; picture-in-picture"
-        >
-
+        encrypted-media; gyroscope; picture-in-picture">
         </iframe>
+        <p className='text1'>  Insira sua mensagem aqui...<br /> Insira sua mensagem aqui... {/* O <br /> funciona como quebra de linha! */}
+          Insira sua mensagem aqui...  <br /> Insira sua mensagem aqui...
+          Insira sua mensagem aqui...<br />  Insira sua mensagem aqui...
+          Insira sua mensagem aqui... <br /> Insira sua mensagem aqui... <br />Insira sua mensagem aqui...
+          <br /><br />
+          Me siga nas redes sociais e me marca se você fez!! <br />
+          Twitter: @aryzete_ <br />
+          Instagram: @aryzete_ <br />
+          Twitch: @aryzete <br />
+          GitHub: @aryniceia <br />
+        </p>
       
 
       </main>
-      <nav>
-        <Link to="/Page">Voltar</Link>
+      <nav className='box' >
+        <Link className="App-link" to="/Page">Voltar</Link>
       </nav>
     </>
   );
 }
    
-
 export default App;
